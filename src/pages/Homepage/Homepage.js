@@ -2,6 +2,8 @@ import logo from "../../assets/thejourney.svg";
 import astronaut from "../../assets/astronaut.svg";
 import travel from "../../assets/travel.svg";
 
+import { RiSkullFill } from "react-icons/ri";
+
 import { BrowserView, MobileView } from "react-device-detect";
 
 import "./Homepage.scss";
@@ -40,6 +42,7 @@ export default function Homepage() {
           <main className="mobile-main">
             <h2>This is awkward... </h2>
             <h3>This website is not available on mobile yet.</h3>
+            <RiSkullFill />
           </main>
         </div>
       </MobileView>

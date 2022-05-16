@@ -88,10 +88,13 @@
   > h3 {
     font-weight: 400;
   }
+  > * {
+    color: var(--secondary-AAA-color);
+  }
 }
 
 .mobile-background {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
 
