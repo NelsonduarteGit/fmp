@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import "./App.scss";
 
 import Homepage from "./pages/Homepage/Homepage";
@@ -23,7 +23,7 @@ import SocialReform from "./pages/Questionaire/Roles/SocialReform/SocialReform";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/questionaire">
@@ -44,7 +44,7 @@ function App() {
           <Route path="PublicDiplomacy" element={<PublicDiplomacy />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
