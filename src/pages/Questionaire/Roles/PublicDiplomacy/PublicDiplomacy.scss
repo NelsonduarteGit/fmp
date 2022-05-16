@@ -1,0 +1,101 @@
+.final {
+  margin: 0 auto;
+  width: 700px;
+
+  .specialisation {
+    margin-top: -20px;
+  }
+
+  h3 {
+    margin-top: 55px;
+    opacity: 0;
+    animation: flash 3s;
+  }
+
+  h2 {
+    padding-bottom: 5px;
+    border-bottom: 5px solid #f2ad94;
+
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: -40px;
+
+    animation: appear 6s;
+  }
+
+  h3,
+  h2 {
+    text-align: center;
+    font-weight: 400;
+  }
+
+  p {
+    text-align: left;
+    animation: appear 8s;
+    background-color: rgb(253, 255, 255);
+    line-height: 31px;
+  }
+  .learnmore {
+    padding: 5px 30px;
+    border-radius: 3px;
+    background-color: var(--primary-40-color);
+    border: 1px solid var(--primary-80-color);
+    margin-top: 0;
+    color: black;
+    box-shadow: none;
+    animation: appear 15s;
+    cursor: pointer;
+  }
+}
+
+.specialisation {
+  h2 {
+    border-bottom: 5px solid red;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: -30px;
+  }
+}
+
+a {
+  font-weight: 300;
+  font-size: small;
+  color: rgb(61, 79, 156);
+  animation: appear 8s;
+  padding-bottom: 15px;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@media (min-width: 1300px) {
+  .final {
+    h3 {
+      margin-top: 150px;
+    }
+    h2 {
+      margin-top: -65px;
+    }
+  }
+}

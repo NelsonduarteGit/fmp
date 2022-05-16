@@ -1,0 +1,48 @@
+nav {
+  position: relative;
+  background-color: var(--secondary-80-color);
+  width: 100%;
+  height: 30px;
+
+  padding: 7px 0px 5px 0px;
+
+  > div {
+    width: 10%;
+    margin-left: auto;
+    margin-right: 0;
+
+    .redo {
+      color: var(--primary-dark-color);
+      font-size: 25px;
+      cursor: pointer;
+    }
+
+    .info {
+      color: var(--primary-dark-color);
+      font-size: 23px;
+      margin-left: 20px;
+      cursor: pointer;
+    }
+  }
+}
+
+.center-logo {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 40%;
+  margin: 0 auto;
+  background-color: var(--secondary-80-color);
+
+  display: flex;
+  justify-content: center;
+
+  width: 20%;
+  height: 60px;
+  border-radius: 5px;
+
+  img {
+    width: 160px;
+    cursor: pointer;
+  }
+}

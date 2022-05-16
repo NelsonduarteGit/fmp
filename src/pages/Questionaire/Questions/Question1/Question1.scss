@@ -1,0 +1,47 @@
+main {
+  width: 60vw;
+  margin: 0 auto;
+  margin-top: 20vh;
+
+  text-align: center;
+}
+
+.know {
+  background-color: var(--positive-default-color);
+}
+
+.dontknow {
+  width: auto;
+  margin-left: 50px;
+  background-color: var(--warning-light-color);
+}
+
+.hidden {
+  margin-top: 50px;
+
+  > button {
+    animation-duration: 3s;
+  }
+}
+
+.learn {
+  background-color: rgb(130, 126, 126);
+  margin-left: 20px;
+}
+
+.Marketing {
+  color: orangered;
+}
+
+.PR {
+  color: var(--primary-100-color);
+}
+
+.Journalism {
+  color: var(--secondary-100-color);
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
