@@ -42,7 +42,7 @@ export default function Homepage() {
           <main className="mobile-main">
             <h2>This is awkward... </h2>
             <h3>This website is not available on mobile yet.</h3>
-            <RiSkullFill />
+            <RiSkullFill style={{ width: "100px" }} />
           </main>
         </div>
       </MobileView>
