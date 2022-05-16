@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/fmp/static/css/main.a822a084.css",
-    "main.js": "/fmp/static/js/main.b2edfe3a.js",
+    "main.css": "/fmp/static/css/main.f50ba855.css",
+    "main.js": "/fmp/static/js/main.7d1acc9c.js",
     "static/media/astronaut.svg": "/fmp/static/media/astronaut.44f642d8c4f2a1b5940578ad5df412b4.svg",
     "static/media/travel.svg": "/fmp/static/media/travel.6ef6ce7e498a1460ea75ce825453b95d.svg",
     "static/media/thejourney.svg": "/fmp/static/media/thejourney.c3ccb11a53bf7acb30019fce8462d5f7.svg",
     "index.html": "/fmp/index.html",
-    "main.a822a084.css.map": "/fmp/static/css/main.a822a084.css.map",
-    "main.b2edfe3a.js.map": "/fmp/static/js/main.b2edfe3a.js.map"
+    "main.f50ba855.css.map": "/fmp/static/css/main.f50ba855.css.map",
+    "main.7d1acc9c.js.map": "/fmp/static/js/main.7d1acc9c.js.map"
   },
   "entrypoints": [
-    "static/css/main.a822a084.css",
-    "static/js/main.b2edfe3a.js"
+    "static/css/main.f50ba855.css",
+    "static/js/main.7d1acc9c.js"
   ]
 }
