@@ -11,8 +11,8 @@ export default function Navbar() {
     <header>
       <nav>
         <div>
-          <AiOutlineRedo className="redo" title="redo button" />
-          <AiFillInfoCircle className="info" title="info button" />
+          <AiOutlineRedo className="redo" title="redo" />
+          <AiFillInfoCircle className="info" title="info" />
         </div>
       </nav>
       <div className="center-logo">
